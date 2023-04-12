@@ -2,10 +2,47 @@
     width: 50%;
     margin: auto;
 }
+body{
+    background-color: #eee;
+}
 .cont{
     margin-top: 100px;
 }
 .inputForms{
    width: 60%;
    margin: auto;
+}
+.head{
+    font-weight: bold;
+    width: 70%;
+    margin: auto    ;
+}
+
+.boxHeader{
+    font-weight: bold;
+    width: 70%;
+    margin: auto    ;
+    font-size: 12pt;
+    background-color: 1px solid #ddd;
+}
+.submitButton{
+    padding-bottom: 30px;
+    background-color: #f1c40f;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.spacer{
+    margin: 150px;
+}
+.box{
+    margin: 30px;
+    border-style: solid;
+}
+
+.box div{
+    text-align: center;
+}
+.box div button{
+    background-color: #f1c40f;
+    padding: 10px;
 }
