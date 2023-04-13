@@ -6,7 +6,7 @@ body{
     background-color: #eee;
 }
 .cont{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .inputForms{
    width: 60%;
@@ -14,7 +14,7 @@ body{
 }
 .head{
     font-weight: bold;
-    width: 70%;
+    width: 40%;
     margin: auto    ;
 }
 
@@ -45,4 +45,8 @@ body{
 .box div button{
     background-color: #f1c40f;
     padding: 10px;
+}
+.foot{
+    background-color: black;
+    
 }
