@@ -16,19 +16,20 @@
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
-    <header id="header">
+    <header style="position: fixed;" id="header">
       <div id="header-img">
+        <div></div>
         <nav id="nav-bar" class="navbar fixed-top navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">MY LAnding</a>
+              <a class="navbar-brand" href="#"><img src="./assets/15.jpg"></a>
             </div>
            
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#"> Home</a></li>
-              <li><a href="#features"> How It works</a></li>
-              <li><a href="#"> About</a></li>
-              <li><a href="#"> COntact Us</a></li>
+              <li ><a class="nav-link" href="#"> Home</a></li>
+              <li ><a class="nav-link" href="#features"> How It works</a></li>
+              <li ><a class="nav-link" href="#bottom"> About</a></li>
+              <li ><a class="nav-link" href="#"> COntact Us</a></li>
             </ul>
           </div>
         </nav>
@@ -46,7 +47,7 @@
           <div><hr/></div>
           <button  type="submit" class="form-control submitButton inputForms" id="submit">GET STARTED</button>
         </form>
-      <div id="features">
+      <div id="features" class="flex-container">
            <div class="col-md-3">
             
            </div>
@@ -93,7 +94,7 @@
         
       </div>
       <div style="margin-top: 100px;"></div>
-      <div class="col-md-12">
+      <div id="bottom" class="col-md-12">
         <div  class="col-md-3 box"> 
           <div class="boxHeader">TENOR TROMBONE</div>
           <div style=" font-weight: bold;">$600</div>
@@ -130,6 +131,11 @@
       </div>
     </div>
     <div class="col-sm"></div>
+    <div class="flex-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
     </div>
     </div>
 

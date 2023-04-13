@@ -4,7 +4,9 @@
 }
 body{
     background-color: #eee;
+    display:flex;
 }
+
 .cont{
     margin-top: 30px;
 }
@@ -14,10 +16,12 @@ body{
 }
 .head{
     font-weight: bold;
-    width: 40%;
+    width: 0%;
     margin: auto    ;
 }
-
+#header{
+  width: 100%;
+}
 .boxHeader{
     font-weight: bold;
     width: 70%;
